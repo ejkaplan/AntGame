@@ -16,7 +16,6 @@ public class RandomHive extends Hive {
 		for (int[] ant : this.getAntLocations()) {
 			out += ant[0] + " " + ant[1] + " " + dirs[rand.nextInt(dirs.length)] + "\n";
 		}
-		System.out.println(this.getTimeRemaining());
 		return out;
 	}
 
